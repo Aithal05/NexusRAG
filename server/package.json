@@ -1,0 +1,16 @@
+{
+  "name": "nexus-search-server",
+  "version": "1.0.0",
+  "description": "LangChain Web-Grounded RAG Backend with SQLite persistence",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.4.5"
+  }
+}
